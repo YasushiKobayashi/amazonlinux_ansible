@@ -1,1 +1,3 @@
 - amazonlinux docker add python27 ansible.
+- `docker pull ptpadan1246/amazonlinux_ansible`
+- https://hub.docker.com/r/ptpadan1246/amazonlinux_ansible/
