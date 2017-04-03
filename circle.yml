@@ -1,0 +1,13 @@
+machine:
+  timezone: Asia/Tokyo
+  service:
+    docker
+
+dependencies:
+  pre:
+    - docker install amazonlinux
+
+test:
+  override:
+    - docker build .
+    - exit 0
