@@ -4,7 +4,7 @@ service:
 before_script:
   - echo 'Canada/Pacific' | sudo tee /etc/timezone
   - sudo dpkg-reconfigure --frontend noninteractive tzdata
-  - docker install amazonlinux
+  - docker pull amazonlinux
 
 script:
   - docker build .

@@ -5,7 +5,7 @@ machine:
 
 dependencies:
   pre:
-    - docker install amazonlinux
+    - docker pull amazonlinux
 
 test:
   override:
